@@ -1,0 +1,200 @@
+/* A BIT OF TYPOGRAPHY */
+
+body 
+{
+	font-family: 'Source Code Pro', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5;
+	color: #333333;
+}
+
+h1, h2, h3 
+{
+	font-weight: 700;
+	color: black;
+}
+
+b
+{
+	font-weight: 700;
+}
+
+p 
+{
+	margin: 2em 0 2em 0;
+}
+
+/* CENTRED CONTENT */
+
+.content 
+{
+	margin: 2em auto;
+	max-width: 40em;
+	padding: 0 1em;
+}
+
+/* LOGO */
+
+.logo 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 320px;
+	height: 320px;
+	margin-left: -160px;
+	margin-top: -160px;
+}
+
+.logo img 
+{
+	width: 100%;
+}
+
+/* FULL-SIZE IMAGES */
+
+html, body 
+{
+	height: 100%;
+}
+
+.full 
+{
+	height: 100%;
+	background-color: yellow;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#one 
+{
+	background-image: url(../images/eqaul1.jpg);
+}
+
+#two 
+{
+	background-image: url(../images/work%20newnew121.jpg);
+}
+
+#three 
+{
+	background-image: url(../images/eductaionbg1.jpg);
+}
+
+#four 
+{
+	background-image: url(../images/politics%20new%2012121.jpg);
+}
+
+#five 
+{
+	background-image: url(../images/violence%20new%20new%201212.jpg);
+}
+
+#six
+{
+    background-image: url(../images/women24n-4-web%20copy.jpg);
+}
+
+#seven
+{
+    background-image: url(../images/bg1.png);
+    
+}
+
+
+/* MAILCHIMP FORM */
+
+#mc_embed_signup 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30em;
+	height: 20em;
+	margin: -6.5em 0 0 -15em;
+
+	background-color: white;
+}
+
+input 
+{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+input[type="email"] 
+{
+	padding: .5em;
+}
+
+input[type="submit"]
+{
+	margin: 1em 0;
+	background-color: black;
+	color: grey;
+	border-radius: .35em;
+	border: none;
+	padding: .15em;
+	/*font-size: 1.5em;*/
+}
+
+#container
+body {
+  background-image: url(http://subtlepatterns.com/patterns/low_contrast_linen_@2X.png);
+  background-size: 256px;
+  background-color: #252525;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+h4 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: rgba(255,255,255, 0.75);
+  text-align: center;
+   {
+    color: rgba(255,255,255, 0.95);
+  }
+}
+.country:hover{
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+.text{
+  font-size: 10px;
+  text-transform:capitalize;
+}
+#container {
+  margin: 0;
+  border: 1px solid #3a3f4f;
+  border-radius: 2px;
+  height:100%;
+  overflow:hidden;
+  background: #575e70;
+}
+.hidden { 
+  display: none; 
+}
+div.tooltip {
+  color: #222; 
+  background: #fff; 
+  padding: .5em; 
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px; 
+  box-shadow: 0px 0px 2px 0px #a6a6a6; 
+  opacity: 0.9; 
+  position: absolute;
+}
+.graticule {
+  fill: none;
+  stroke: #8f8f8f;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+.equator {
+  stroke: #ccc;
+  stroke-width: 1px;
+}
